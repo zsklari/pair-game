@@ -4,24 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pair-game</title>
+    <title>Pairs Game</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div class="game">
         <div class="title">
-            <h1>Keresd a párját!</h1>
+            <h1>Pairs Game</h1>
         </div>
         <div class="instr">
-            <h4>Kattints egy kártyára a kezdéshez</h4>
+            <h4>Click any card to begin</h4>
         </div>
         <div class="stopper">
             <div class="time_display">
                 00:00
             </div>
         </div>
-        <div class="cardcontainer"></div>
+        <div id="cardcontainer">
+            <div class="card" data-card="1"></div>
+            <div class="card" data-card="2"></div>
+            <div class="card" data-card="3"></div>
+            <div class="card" data-card="4"></div>
+            <div class="card" data-card="5"></div>
+            <div class="card" data-card="6"></div>
+            <div class="card" data-card="7"></div>
+            <div class="card" data-card="8"></div>
+            <div class="card" data-card="9"></div>
+            <div class="card" data-card="10"></div>
+        </div>
     </div>
     <script src="./js/main.js"></script>
 </body>
