@@ -16,17 +16,50 @@ body {
 }
 
 .stopper {
-
-}
-
-.time_display {
-
+    display: flex;
+    width: 800px;
+    justify-content: center;
 }
 
 .cardcontainer {
-
+    display: flex;
 }
 
 .card {
-    
+    display: flex;
+    width: 100px;
+    height: 145px;
+    transition: all 0.8s ease-out;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    margin: .3rem;
+}
+
+.flip-box-front {
+    background-image: url(\img\card-bg.jpg);
+}
+
+.flip-box-back {
+    transform: rotateX(180deg);
+}
+
+.sponge {
+    background-image: url(css\img\sponge.jpg);
+}
+
+.patrick {
+    background-image: url(./img/patrick.jpg);
+}
+
+.squid {
+    background-image: url(./img/squid.jpg);
+}
+
+.crab {
+    background-image: url(./img/crab.jpg);
+}
+
+.sandy {
+    background-image: url(./img/sandy.jpg);
 }
