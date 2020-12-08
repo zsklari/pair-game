@@ -1,8 +1,8 @@
-.* {
+* {
     box-sizing: border-box;
 }
 
-.body {
+body {
     background-color: rgb(248, 217, 49);
     background-image: url(./img/spong-bg.jpg);
     background-repeat: no-repeat;
@@ -21,11 +21,11 @@
     justify-content: center;
 }
 
-.container {
+/* .container {
     display: flex;
 }
 
-.card {
+/* .card {
     display: flex;
     width: 100px;
     height: 145px;
